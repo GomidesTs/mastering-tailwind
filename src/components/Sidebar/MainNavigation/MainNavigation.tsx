@@ -7,7 +7,8 @@ import {
   Users
 } from 'lucide-react';
 
-import { NavItem } from './NavItem';
+import { NavItem } from '../NavItem';
+
 export const MainNavigation = () => {
   return (
     <nav>
