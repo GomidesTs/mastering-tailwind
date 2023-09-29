@@ -1,6 +1,6 @@
 export const Logo = () => {
   return (
-    <strong className="text-lx flex items-center gap-2 font-semibold text-zinc-950">
+    <strong className="text-lx mx-1 flex items-center gap-2 font-semibold text-zinc-950">
       <svg
         width={38}
         height={38}
