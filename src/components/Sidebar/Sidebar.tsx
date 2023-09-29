@@ -2,6 +2,7 @@ import { Search } from 'lucide-react';
 
 import { Logo } from './Logo';
 import { MainNavigation } from './MainNavigation';
+import { Profile } from './Profile';
 import { SettingNavigation } from './SettingNavigation';
 import { UsedSpaceWidget } from './UsedSpaceWidget';
 
@@ -28,6 +29,10 @@ export const Sidebar = () => {
       </div>
 
       <UsedSpaceWidget />
+
+      <div className="h-px bg-zinc-200" />
+
+      <Profile />
     </aside>
   );
 };
