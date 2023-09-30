@@ -37,7 +37,7 @@
       {
         "newlinesBetween": "always",
         "groups": [
-          ["/^react/", "/^next/", "/^lucide-react/"],
+          ["/^react/", "/^next/", "/^lucide-react/", "/^@radix/"],
           "module",
           "absolute",
           "/^@/components/",
