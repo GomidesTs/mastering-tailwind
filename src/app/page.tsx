@@ -152,7 +152,7 @@ export default function Home() {
 
             <FileInputRoot>
               <FileInputTrigger />
-              <FileInputControl />
+              <FileInputControl multiple />
             </FileInputRoot>
           </div>
 
