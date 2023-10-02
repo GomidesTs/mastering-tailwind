@@ -8,6 +8,7 @@ import {
   FileInputTrigger
 } from '@/components/FileInput';
 import { InputControl, InputPrefix, InputRoot } from '@/components/Input';
+import { Select } from '@/components/Select';
 import { SettingsTabs } from '@/components/SettingsTabs';
 
 export default function Home() {
@@ -117,7 +118,7 @@ export default function Home() {
             >
               Country
             </label>
-            <div />
+            <Select />
           </div>
 
           <div className="grid-cols-form grid gap-3 pt-5">
