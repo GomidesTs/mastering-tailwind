@@ -3,6 +3,7 @@ import { Mail } from 'lucide-react';
 import {
   FileInputControl,
   FileInputImagePreview,
+  FileInputList,
   FileInputRoot,
   FileInputTrigger
 } from '@/components/FileInput';
@@ -152,6 +153,7 @@ export default function Home() {
 
             <FileInputRoot>
               <FileInputTrigger />
+              <FileInputList />
               <FileInputControl multiple />
             </FileInputRoot>
           </div>
