@@ -9,6 +9,7 @@ import {
 } from '@/components/FileInput';
 import { InputControl, InputPrefix, InputRoot } from '@/components/Input';
 import { Select } from '@/components/Select';
+import { SelectItem } from '@/components/Select/SelectItem';
 import { SettingsTabs } from '@/components/SettingsTabs';
 
 export default function Home() {
@@ -118,7 +119,10 @@ export default function Home() {
             >
               Country
             </label>
-            <Select />
+            <Select placeholder="Select a country...">
+              <SelectItem value="br" text="Brazil" />
+              <SelectItem value="us" text="United States" />
+            </Select>
           </div>
 
           <div className="grid-cols-form grid gap-3 pt-5">
@@ -128,7 +132,13 @@ export default function Home() {
             >
               Timezone
             </label>
-            <div />
+            <Select placeholder="Select a timezone...">
+              <SelectItem
+                value="utc8"
+                text="Pacific Standard Time (UTC-08:00)"
+              />
+              <SelectItem value="utc3" text="America São Paulo (UTC-03:00)" />
+            </Select>
           </div>
 
           <div className="grid-cols-form grid gap-3 pt-5">
