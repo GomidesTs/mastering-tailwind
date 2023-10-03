@@ -3,12 +3,13 @@ import Image from 'next/image';
 
 export const Profile = () => {
   return (
-    <div className="grid-cols-profile grid items-center gap-3">
+    <div className="grid grid-cols-profile items-center gap-3">
       <Image
         src="https://github.com/GomidesTs.png"
         width={40}
         height={40}
         alt="github profile picture"
+        className="rounded-lg"
       ></Image>
 
       <div className="flex flex-col truncate">
