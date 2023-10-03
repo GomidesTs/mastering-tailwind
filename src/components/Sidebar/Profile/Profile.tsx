@@ -15,10 +15,10 @@ export const Profile = () => {
       ></Image>
 
       <div className="flex flex-col truncate">
-        <span className="text-sm font-semibold text-zinc-700">
+        <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-100">
           Tulio Gomides
         </span>
-        <span className="truncate text-sm text-zinc-500">
+        <span className="truncate text-sm text-zinc-500 dark:text-zinc-400">
           gomidests@gomidesweb.com.br
         </span>
       </div>
