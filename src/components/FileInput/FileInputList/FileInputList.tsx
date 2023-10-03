@@ -11,7 +11,14 @@ export const FileInputList = () => {
   return (
     <div ref={parent} className="mt-4 space-y-3">
       {files.map((file) => {
-        return <FileInput key={file.name} name={file.name} size={file.size} />;
+        return (
+          <FileInput
+            key={file.name}
+            name={file.name}
+            size={file.size}
+            state="complete"
+          />
+        );
       })}
     </div>
   );
