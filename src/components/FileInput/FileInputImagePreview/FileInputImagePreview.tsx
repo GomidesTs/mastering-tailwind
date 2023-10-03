@@ -26,12 +26,14 @@ export const FileInputImagePreview = () => {
   }
 
   return (
-    <Image
-      src={previewURL}
-      alt="Preview Image Upload"
-      className="rounded-full object-cover"
-      height={64}
-      width={64}
-    />
+    <div className="flex h-16 w-16 items-center justify-center overflow-hidden rounded-full">
+      <Image
+        src={previewURL}
+        alt="Preview Image Upload"
+        className="object-cover"
+        height={100}
+        width={100}
+      />
+    </div>
   );
 };
